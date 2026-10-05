@@ -16,7 +16,7 @@ function Navbar() {
                     </Link>
 
                     <Link to='/' className="flex md:hidden w-full text-xl md:text-3xl uppercase text-yellow-400 font-bold">
-                        <img className='w-20 h-20 ml-5' src={logo} alt="Challenge Consulting" />
+                        <img className='w-13 h-13 ml-5' src={logo} alt="Challenge Consulting" />
                     </Link>
 
                     {/* Mobile Menu */}
