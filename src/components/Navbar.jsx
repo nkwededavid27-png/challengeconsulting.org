@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <header>
             <div className="navbar bg-base-100 shadow-sm fixed z-100 ">
-                <div className="navbar-start w-full">
+                <div className="navbar-start justify-center w-full">
 
                     <Link to='/' className="hidden md:flex w-full text-xl uppercase md:text-3xl text-yellow-400 font-bold">
                         <img className='w-15 h-15 ml-5' src={logo} alt="Challenge Consulting" />
@@ -20,7 +20,7 @@ function Navbar() {
                     </Link>
 
                     {/* Mobile Menu */}
-                    <div className="block sm:block md:hidden lg:hidden">
+                    <div className="block sm:block md:hidden lg:hidden ">
                         {/* Hamburger Button */}
                         <button
                             onClick={() => setOpen(true)}
@@ -29,7 +29,7 @@ function Navbar() {
                             <svg
                                 aria-label="Menu"
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-15 w-15"
+                                className="h-10 w-10"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"

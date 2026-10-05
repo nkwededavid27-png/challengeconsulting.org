@@ -28,7 +28,7 @@ export default function Tprogram() {
                             href="https://wa.me/0161048342" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="text-center text-sm lg:text-2xl font-bold p-5 rounded-3xl bg-[#ffcc00]"
+                            className="text-center text-sm lg:text-2xl font-bold p-3 rounded-3xl bg-[#ffcc00]"
                         >
                             Rejoignez nous sur Whatsapp
                         </a>
@@ -79,7 +79,7 @@ export default function Tprogram() {
                 </ul>
 
                 {/* Tab Content with Animation */}
-                <div className="bg-white shadow-md rounded-b-lg p-6 w-87 sm:w-150 md:w-190 lg:w-250 m-auto border-2 border-black">
+                <div className="bg-white shadow-md rounded-b-lg p-6 w-80 sm:w-150 md:w-190 lg:w-250 m-auto border-2 border-black">
                     <AnimatePresence mode="wait">
                         {activeTab1 === "choice" && (
                             <motion.div
@@ -158,7 +158,7 @@ export default function Tprogram() {
                 </ul>
 
                 {/* Tab Content with Animation */}
-                <div className="bg-white shadow-md rounded-b-lg p-6 w-87 sm:w-150 md:w-190 lg:w-250 m-auto border-2 border-black">
+                <div className="bg-white shadow-md rounded-b-lg p-6 w-80 sm:w-150 md:w-190 lg:w-250 m-auto border-2 border-black">
                     <AnimatePresence mode="wait">
                         {activeTab2 === "choice" && (
                             <motion.div
@@ -198,11 +198,11 @@ export default function Tprogram() {
                 </div>
             </div>
 
-            <div className="grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  lg:h-80 bg-[#ffcc00] m-5 sm:m-auto md:m-5 lg:m-10 mt-10 rounded-4xl">
+            <div className="grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  lg:h-80 bg-[#ffcc00] m-6 sm:m-6 md:m-6 lg:m-10 mt-10 rounded-4xl ">
                 <div className="text-center ">
                     <h1 className="font-extrabold text-2xl p-12 text-left lg:w-180 lg:ml-10">First Graphic Design Examination Center in Benin</h1>
                     <p className="text-xl text-left lg:ml-20 lg:w-190 ml-5">
-                        In accordance with Decision No.410/MESTFP/DC/SGM/DEC/STEC/SA of August 29,2019.
+                        In accordance with Decision No.410/MESTFP/DC <br />/SGM/DEC/STEC/SA of August 29,2019.
                     </p>
                 </div>
 

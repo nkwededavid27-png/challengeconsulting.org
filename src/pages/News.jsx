@@ -144,11 +144,11 @@ const News = () => {
                 ))}
             </div>
 
-            <div className="grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  lg:h-80 bg-[#ffcc00] m-5 sm:m-auto md:m-5 lg:m-10 mt-10 rounded-4xl">
+            <div className="grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  lg:h-80 bg-[#ffcc00] m-6 sm:m-6 md:m-5 lg:m-10 mt-10 rounded-4xl">
                 <div className="text-center ">
                     <h1 className="font-extrabold text-2xl lg:text-4xl p-12 text-left lg:w-180 lg:ml-10">First Graphic Design Examination Center in Benin</h1>
                     <p className="text-xl text-left lg:ml-20 lg:w-190 ml-5">
-                        In accordance with Decision No.410/MESTFP/DC/SGM/DEC/STEC/SA of August 29,2019.
+                        In accordance with Decision No.410/MESTFP/DC <br />/SGM/DEC/STEC/SA of August 29,2019.
                     </p>
                 </div>
 

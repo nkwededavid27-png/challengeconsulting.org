@@ -29,7 +29,7 @@ function Counter({ label, target, duration }) {
 
 export default function StatsSection() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  m-2  bg-gray-200 p-2 rounded-4xl lg:m-10 gap-6 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  m-auto w-80 sm:w-135 md:w-200 lg:w-7xl bg-gray-200 p-2 rounded-4xl lg:m-10 gap-6 text-center mt-10">
             <Counter label="Clients +" target={160} duration={5000} />
             <Counter label="Services" target={15} duration={9000} />
             <Counter label="Trained students +" target={100} duration={4000} />

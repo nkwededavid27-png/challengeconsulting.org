@@ -58,17 +58,17 @@ function Home() {
 
             {/* */}
             <div className="flex flex-col md:grid-cols-1 lg:flex-row gap-5 justify-around sm:pt-30 md:pt-30 lg:pt-25 pt-30 md:p-10">
-                <div className="w-90 sm:w-135 m-auto sm:h-230 lg:w-190 lg:h-210 bg-gray-200 rounded-4xl  md:h-180 md:text-2xl  md:w-180">
+                <div className="w-80 sm:m-auto sm:w-135 m-auto sm:h-230 lg:w-190 lg:h-210 bg-gray-200 rounded-4xl  md:h-180 md:text-2xl  md:w-180">
                     <h1 className="text-black text-center text-2xl m-3 lg:text md:text-4xl font-bold">CHALLENGE CONSULTING</h1>
-                    <p className="text-xl md:text-3xl bg-[#000033] m-2 text-center text-white p-3 ">
+                    <p className="text-xl md:text-3xl bg-[#000033]  text-center text-white p-3 ">
                         A leading organization serving young people for 15 years
                     </p>
 
-                    <p className="text-2xl md:text-4xl bg-yellow-400 m-2 text-left text-[#000033] p-8 mt-5 font-black align-middle">
+                    <p className="text-2xl md:text-4xl bg-yellow-400  text-left text-[#000033] p-8 mt-5 font-black align-middle">
                         100% practical training courses
                     </p>
 
-                    <p className="text-base m-2 text-black p-2 ">
+                    <p className="text-base  text-black p-2 ">
                         <span className="font-bold">CHALLENGE CONSULTING</span> is a Beninese company based in Cotonou and recognized as a national leader in <span className="font-bold">professional training</span> and <span className="font-bold">digital services</span> .
                         We offer specialized training and services in <span className="font-bold">IT , Audiovisual , Graphic Design </span>, and <span className="font-bold">Screen Printing</span> , with a strong emphasis on practical application and effectiveness. <br /><br />
 
@@ -79,10 +79,10 @@ function Home() {
                     </p>
 
                     <div className="flex flex-col md:flex-row justify-center  gap-3 m-5">
-                        <Link to="/Tprogram" className="btn bg-yellow-400 font-black rounded-3xl md:pl-10 md:pr-10 pl-10 pr-10 m-2 p-6">
+                        <Link to="/Tprogram" className="btn bg-yellow-400 font-black rounded-3xl md:pl-10 md:pr-10 pl-10 pr-10  p-6">
                             Discover our training <br />programs
                         </Link>
-                        <a href="https://wa.me/0161048342" target="_blank" rel="noopener noreferrer" className="btn bg-yellow-400 font-black text-white rounded-3xl pl-10 m-2 pr-10 p-5">
+                        <a href="https://wa.me/0161048342" target="_blank" rel="noopener noreferrer" className="btn bg-yellow-400 font-black text-white rounded-3xl pl-10  pr-10 p-5">
                             Join us on WhatsApp
                         </a>
                     </div>
@@ -106,7 +106,7 @@ function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 m-auto">
 
-                <div className="flex m-2 ">
+                <div className="flex mt-10">
                     <div className="w-1 h-60 ml-10 bg-[#000033] "></div>
                     <div className="mt-10 hover:text-[#000033]">
                         <Link to="/Gallery" className="flex group hover:bg-white pl-3 rounded transition-colors duration-300" href='#'>
@@ -129,7 +129,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="flex m-2">
+                <div className="flex mt-10">
                     <div className="w-1 h-60 ml-10 bg-[#000033] "></div>
                     <div className="mt-10 hover:text-[#000033]">
                         <Link to="/Gallery" className="flex group hover:bg-white pl-3 rounded transition-colors duration-300" href='#'>
@@ -152,7 +152,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="flex m-2">
+                <div className="flex mt-10">
                     <div className="w-1 h-60 ml-10 bg-[#000033] "></div>
                     <div className="mt-10 hover:text-[#000033]">
                         <Link to="/Gallery" className="flex group hover:bg-white pl-3 rounded transition-colors duration-300" href='#'>
@@ -176,7 +176,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="flex m-2 mt-10">
+                <div className="flex  mt-10">
                     <div className="w-1 h-60 ml-10 bg-[#000033] "></div>
                     <div className="mt-10 hover:text-[#000033]">
                         <Link to="/Gallery" className="flex group hover:bg-white pl-3 rounded transition-colors duration-300" href='#'>
@@ -199,7 +199,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="flex m-2 mt-10">
+                <div className="flex  mt-10">
                     <div className="w-1 h-60 ml-10 bg-[#000033] "></div>
                     <div className="mt-10 hover:text-[#000033]">
                         <Link to="/Gallery" className="flex group hover:bg-white pl-3 rounded transition-colors duration-300" href='#'>
@@ -222,7 +222,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="flex m-2 mt-10">
+                <div className="flex  mt-10">
                     <div className="w-1 h-60 ml-10 bg-[#000033] "></div>
                     <div className="mt-10 hover:text-[#000033]">
                         <Link to="/Gallery" className="flex group hover:bg-white pl-3 rounded transition-colors duration-300" href='#'>
@@ -253,7 +253,7 @@ function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 m-auto">
                 <div className="relative sm:w-155 md:w-180 lg:w-230 group transition sm:m-auto m-auto">
                     <img
-                        className=" lg:ml-5 mt-10 mr-2 w-90 h-160 sm:w-155 md:w-180 lg:w-230 lg:h-150 rounded-3xl object-cover"
+                        className=" lg:ml-5 mt-10 mr-2 w-80 h-160 sm:w-155 md:w-180 lg:w-230 lg:h-150 rounded-3xl object-cover"
                         src={img6}
                         alt="training img"
                     />
@@ -267,9 +267,9 @@ function Home() {
                 </div>
 
 
-                <div className="relative sm:w-155 md:w-180 lg:ml-70 lg:w-90 sm:m-auto md:mt-10 m-auto">
+                <div className="relative sm:w-155 md:w-180 lg:ml-70 lg:w-80 sm:m-auto md:mt-10 m-auto">
                     <img
-                        className="  w-90 h-160 mt-10 lg:m-0.5 sm:mt-10  sm:w-155 md:w-180 lg:w-110 lg:h-150 rounded-3xl object-cover "
+                        className="  w-80 h-160 mt-10 lg:m-0.5 sm:mt-10  sm:w-155 md:w-180 lg:w-110 lg:h-150 rounded-3xl object-cover "
                         src={img7}
                         alt="training img"
                     />
@@ -286,7 +286,7 @@ function Home() {
             <div className="grid w-full sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 m-auto">
                 <div className="relative group transition md:m-auto sm:m-auto m-auto">
                     <img
-                        className=" lg:ml-5  mt-10  w-90 h-160 sm:w-155 md:w-180 lg:w-105 lg:h-150 rounded-3xl object-cover"
+                        className=" lg:ml-5  mt-10  w-80 h-160 sm:w-155 md:w-180 lg:w-105 lg:h-150 rounded-3xl object-cover"
                         src={img8}
                         alt="triaining image"
                     />
@@ -301,7 +301,7 @@ function Home() {
 
                 <div className="relative group transition md:m-auto sm:m-auto m-auto">
                     <img
-                        className="mt-10 w-90 h-160 sm:w-155 md:w-180 lg:w-110 lg:h-150 rounded-3xl object-cover"
+                        className="mt-10 w-80 h-160 sm:w-155 md:w-180 lg:w-110 lg:h-150 rounded-3xl object-cover"
                         src={img11}
                         alt="triaining image"
                     />
@@ -316,7 +316,7 @@ function Home() {
 
                 <div className="relative group transition md:m-auto sm:m-auto m-auto">
                     <img
-                        className="mt-10  w-90 h-160 sm:w-155 md:w-180 lg:w-120 lg:h-74 rounded-3xl object-cover"
+                        className="mt-10  w-80 h-160 sm:w-155 md:w-180 lg:w-120 lg:h-74 rounded-3xl object-cover"
                         src={img10}
                         alt="triaining image"
                     />
@@ -329,7 +329,7 @@ function Home() {
                     </div>
 
                     <img
-                        className="mt-10 sm:mt-10 md:mt-10 lg:mt-2  w-90 h-160 sm:w-155 md:w-180 lg:w-120 lg:h-74 rounded-3xl object-cover"
+                        className="mt-10 sm:mt-10 md:mt-10 lg:mt-2  w-80 h-160 sm:w-155 md:w-180 lg:w-120 lg:h-74 rounded-3xl object-cover"
                         src={img9}
                         alt="triaining image"
                     />
@@ -344,11 +344,11 @@ function Home() {
             </div>
 
 
-            <div className="grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  lg:h-80 bg-[#ffcc00] m-5 sm:m-auto md:m-5 lg:m-10 mt-10 rounded-4xl">
+            <div className="grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  lg:h-80 bg-[#ffcc00] m-6 sm:m-6 md:m-5 lg:m-10 mt-10 rounded-4xl">
                 <div className="text-center ">
                     <h1 className="font-extrabold text-2xl p-12 text-left lg:w-180 lg:ml-10">First Graphic Design Examination Center in Benin</h1>
                     <p className="text-xl text-left lg:ml-20 lg:w-190 ml-5">
-                        In accordance with Decision No.410/MESTFP/DC/SGM/DEC/STEC/SA of August 29,2019.
+                        In accordance with Decision No.410/MESTFP/DC <br />/SGM/DEC/STEC/SA of August 29,2019.
                     </p>
                 </div>
 

@@ -20,7 +20,7 @@ export default function ImageSlideshow() {
   return (
     <div>
       <img
-        className="w-90 h-180 m-auto sm:w-135 md:w-200 md:h-210  lg:h-210 mt-5 md:mt-0 rounded-3xl object-cover"
+        className="w-80 h-180 m-auto sm:w-135 md:w-200 md:h-210  lg:h-210 mt-5 md:mt-0 rounded-3xl object-cover"
         src={images[index]}
         alt="slideshow"
       />

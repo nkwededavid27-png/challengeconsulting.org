@@ -33,9 +33,9 @@ function Footer() {
                 </p>
             </aside>
 
-            <div>
+            <div className='w-80'>
                 <h6 className="footer-title text-2xl text-[#ffcc33]">Our References</h6>
-                <p className='w-100 text-white text-sm font-bold'>
+                <p className='w-40 text-white text-sm font-bold sm:w-50 md:w-70 lg:w-100'>
                     Formal company, published in the Official Journal of the Republic of Benin No. 78 CFE of October 30, 2009, page 1089.
 
                     First Graphic Arts Examination Centre in Benin.
@@ -45,7 +45,7 @@ function Footer() {
 
                     Tax ID No.: 320091771813
                 </p>
-                <div className="flex mt-10">
+                <div className="flex mt-10 w-80 m-auto">
                     <div>
                         <a className="link link-hover text-white font-bold underline"
                             href="https://www.tiktok.com/@challenge_consulting?_r=1&_t=ZS-9AIsYFpbHwG"
@@ -89,6 +89,7 @@ function Footer() {
                 <Link to="/News" className="link link-hover text-white font-bold underline">News</Link>
                 <Link to="/Gallery" className="link link-hover text-white font-bold underline">Gallery</Link>
                 <Link to="/Contact" className="link link-hover text-white font-bold underline">Register</Link>
+                
             </nav>
         </footer>
     )
