@@ -241,7 +241,7 @@ export default function Services() {
                     <h1 className=" sm:text-2xl md:text-3xl lg:text-7xl text-center text-white font-bold w-full pt-50 pl-10 pr-10 pb-20">
                         Notre expertise à notre service !
                     </h1>
-                    <div className="text-center m-10">
+                    <div className="text-center m-8">
                         <a
                             href="https://wa.me/0161048342" 
                             target="_blank" 
