@@ -57,7 +57,7 @@ function Home() {
 
 
             {/* */}
-            <div className="flex flex-col md:grid-cols-1 lg:flex-row gap-5 justify-around sm:pt-30 md:pt-30 lg:pt-25 pt-30 md:p-10">
+            <div className="flex flex-col md:grid-cols-1 lg:flex-row gap-5 justify-around sm:pt-20 md:pt-30 lg:pt-25 pt-30 md:p-10">
                 <div className="w-80 sm:m-auto sm:w-135 m-auto sm:h-230 lg:w-190 lg:h-210 bg-gray-200 rounded-4xl  md:h-180 md:text-2xl  md:w-180">
                     <h1 className="text-black text-center text-2xl m-3 lg:text md:text-4xl font-bold">CHALLENGE CONSULTING</h1>
                     <p className="text-xl md:text-3xl bg-[#000033]  text-center text-white p-3 ">

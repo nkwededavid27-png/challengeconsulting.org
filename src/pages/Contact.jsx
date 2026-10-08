@@ -57,7 +57,7 @@ export default function ContactForm() {
     };
 
     return (
-        <div className="pt-25 sm:pt-20 md:pt-20 lg:pt-20">
+        <div className="pt-20 sm:pt-20 md:pt-20 lg:pt-20">
             <motion.div
                 className="grid grid-cols-1 lg:grid-cols-2 lg:h-80 bg-[#000033] m-5 lg:m-10 rounded-4xl"
                 initial={{ opacity: 0, scale: 0.95 }}
